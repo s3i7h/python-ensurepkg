@@ -8,7 +8,7 @@ __version__ = '0.1.0'
 __all__ = ["EnsurePkg"]
 
 
-CACHE_DIR=env.get("ENSUREPKG_DIR", env.get("XDG_CACHE_HOME", env.get("HOME", "~") + "/.cache") + "/ensurepkg")
+CACHE_DIR=env.get("ENSUREPKG_DIR", env.get("XDG_CACHE_HOME", env.get["HOME"] + "/.cache" if "HOME" in env else "/tmp") + "/ensurepkg")
 PYTHON=sys.executable if sys.executable else "python"
 PIP_INSTALL=[PYTHON, "-m", "pip", "install", "-t"]
 

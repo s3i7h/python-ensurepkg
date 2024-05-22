@@ -26,3 +26,4 @@ print(git.__name__, git.__version__)
 2. from env var $ENSUREPKG_DIR
 3. from env var $XDG_CACHE_HOME/ensurepkg
 4. from env var $HOME/.cache/ensurepkg
+5. /tmp/ensurepkg
