@@ -9,7 +9,7 @@ authors = [
 classifiers = [
   "Development Status :: 5 - Production/Stable",
   "License :: OSI Approved :: MIT License",
-  "License :: OSI Approved :: Apache-2.0 License",
+  "License :: OSI Approved :: Apache Software License",
 ]
 
 [tool.poetry.urls]
